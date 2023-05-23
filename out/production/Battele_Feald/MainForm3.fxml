@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="Windo3Id" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm3Controller">
+   <children>
+      <Label layoutX="75.0" layoutY="93.0" prefHeight="126.0" prefWidth="106.0" text="Player" textFill="#2ec600">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Button layoutX="219.0" layoutY="257.0" mnemonicParsing="false" onAction="#PlayAgainOnAction" prefHeight="47.0" prefWidth="180.0" style="-fx-background-color: #d35400;" text="Play Again" textFill="#f5f5f5">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="NameIdLable" layoutX="194.0" layoutY="93.0" prefHeight="126.0" prefWidth="80.0" textFill="#2ec600">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="256.0" layoutY="93.0" prefHeight="126.0" prefWidth="106.0" text="Win!" textFill="#2ec600">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="367.0" layoutY="93.0" prefHeight="126.0" prefWidth="106.0" text="Score:" textFill="#2ec600">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+      <Label fx:id="ScoreIdLable" layoutX="463.0" layoutY="93.0" prefHeight="126.0" prefWidth="80.0" textFill="#2ec600">
+         <font>
+            <Font name="System Bold Italic" size="33.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
