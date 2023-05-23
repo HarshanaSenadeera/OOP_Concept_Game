@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="Window2Id" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="MainForm2Controller">
+   <children>
+      <Text fill="#b24040" layoutX="182.0" layoutY="45.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Ready Your Wepons">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font>
+      </Text>
+      <Pane layoutX="342.0" layoutY="83.0" prefHeight="229.0" prefWidth="200.0" style="-fx-background-color: #95a5a6;" />
+      <Text fill="#0714c9" layoutX="408.0" layoutY="113.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player B">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Pane layoutX="36.0" layoutY="86.0" prefHeight="229.0" prefWidth="200.0" style="-fx-background-color: #95a5a6;" />
+      <CheckBox fx:id="T56IdA" layoutX="52.0" layoutY="123.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#T56OnActionA" text="T- 56                 " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="TankIdA" layoutX="52.0" layoutY="158.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#TankOnActionA" text="Tank                 " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="PistolIdA" layoutX="52.0" layoutY="234.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#PistolOnAction" text="Pistol                " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="BombIdA" layoutX="55.0" layoutY="276.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#BombOnActionA" text="Bomb               " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="T56IdB" layoutX="365.0" layoutY="119.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#T56OnActionB" text="T- 56                 " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="TankIdB" layoutX="363.0" layoutY="158.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#TankOnActionB" text="Tank                  " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="PistolIdB" layoutX="363.0" layoutY="241.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#PistolOnActionB" text="Pistol                 " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="BombIdB" layoutX="367.0" layoutY="278.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#BombOnActionB" text="Bomb                " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="MultiBabellIdA" layoutX="53.0" layoutY="198.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#MyltiOnActionA" text="Multi Barrel     " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="MultiBarellIdB" layoutX="363.0" layoutY="198.0" mnemonicParsing="false" nodeOrientation="RIGHT_TO_LEFT" onAction="#MultiOnActionB" text="Multi Barrel      " textFill="#ff0606">
+         <font>
+            <Font name="System Bold Italic" size="16.0" />
+         </font>
+      </CheckBox>
+      <Text fill="#0714c9" layoutX="78.0" layoutY="112.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Player A">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Text>
+      <Button layoutX="261.0" layoutY="335.0" mnemonicParsing="false" onAction="#BattleStartOnAction" prefHeight="33.0" prefWidth="147.0" style="-fx-background-color: #10ae16;" text="Battle Start" textFill="#e7eee7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
